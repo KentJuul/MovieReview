@@ -1,0 +1,15 @@
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\bin\Debug\net6.0\MovieReview.Data.deps.json
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\bin\Debug\net6.0\MovieReview.Data.dll
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\bin\Debug\net6.0\MovieReview.Data.pdb
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\bin\Debug\net6.0\MovieReview.Core.Entity.dll
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\bin\Debug\net6.0\MovieReview.Core.Entity.pdb
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\MovieReview.Data.csproj.AssemblyReference.cache
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\MovieReview.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\MovieReview.Data.AssemblyInfoInputs.cache
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\MovieReview.Data.AssemblyInfo.cs
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\MovieReview.Data.csproj.CoreCompileInputs.cache
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\MovieReview.Data.csproj.CopyComplete
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\MovieReview.Data.dll
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\refint\MovieReview.Data.dll
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\MovieReview.Data.pdb
+C:\Users\dkKeJuPe\DEV\MovieReview\MovieReview.Data\obj\Debug\net6.0\ref\MovieReview.Data.dll

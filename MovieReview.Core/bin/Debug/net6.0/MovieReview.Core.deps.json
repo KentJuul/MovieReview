@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MovieReview.Core/1.0.0": {
+        "dependencies": {
+          "MovieReview.Core.Entity": "1.0.0",
+          "MovieReview.Data": "1.0.0"
+        },
+        "runtime": {
+          "MovieReview.Core.dll": {}
+        }
+      },
+      "MovieReview.Core.Entity/1.0.0": {
+        "runtime": {
+          "MovieReview.Core.Entity.dll": {}
+        }
+      },
+      "MovieReview.Data/1.0.0": {
+        "dependencies": {
+          "MovieReview.Core.Entity": "1.0.0"
+        },
+        "runtime": {
+          "MovieReview.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MovieReview.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovieReview.Core.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovieReview.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

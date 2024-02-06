@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieReview.Core.Entity\MovieReview.Core.Entity.csproj" />
+    <ProjectReference Include="..\MovieReview.Data\MovieReview.Data.csproj" />
+  </ItemGroup>
+
+</Project>
