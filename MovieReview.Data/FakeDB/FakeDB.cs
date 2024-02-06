@@ -5,9 +5,7 @@ using System.Reflection.Metadata.Ecma335;
 
 public static class FakeDB
 {
-    public static List<Movie> Movies()
-    {
-        var movies = new List<Movie>
+    public static List<Movie> movies = new List<Movie>
         {
             new Movie
             {
@@ -152,13 +150,8 @@ public static class FakeDB
 
         };
 
-        return movies;
-    }
-
-    public static List<Review> Reviews()
+    public static List<Review> reviews = new List<Review>
     {
-        var reviews = new List<Review>
-        {
             new Review
             {
                 ReviewID = 1,
@@ -243,15 +236,12 @@ public static class FakeDB
             new Review
             {
                 ReviewID = 10,
-                MovieID = 10, 
+                MovieID = 10,
                 Author = "Obi Wan Kenobi",
                 Rating = 5,
                 Comment = "Hello there",
                 Date = new DateTime(2024, 3, 1)
             }
-        };
+    };
 
-        return reviews;
-    }
-    
 }

@@ -14,11 +14,17 @@ namespace MovieReview.Core.Services
         public readonly IMovieRepository _movieRepository;
         public MovieService(IMovieRepository movieRepository)
         {
-                _movieRepository = movieRepository;
+            _movieRepository = movieRepository;
         }
+
+        public Movie CreateMovie(Movie movie)
+        {
+            return _movieRepository.Create(movie);
+        }
+
         public List<Movie> GetAllMovies()
         {
-            return FakeDB.Movies();
+            return _movieRepository.GetAllMovies();
         }
     }
 }

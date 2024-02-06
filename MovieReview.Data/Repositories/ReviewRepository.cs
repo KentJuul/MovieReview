@@ -12,7 +12,7 @@ namespace MovieReview.Data.Repositories
     {
         public List<Review> GetAllReviews()
         {
-            return FakeDB.Reviews();
+            return FakeDB.reviews;
         }
     }
 }

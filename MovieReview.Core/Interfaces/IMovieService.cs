@@ -9,6 +9,7 @@ namespace MovieReview.Core.Interfaces
 {
     public interface IMovieService
     {
+        Movie CreateMovie(Movie movie);
         List<Movie> GetAllMovies();
     }
 }

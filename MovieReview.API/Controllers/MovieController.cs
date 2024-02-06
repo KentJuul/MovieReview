@@ -23,10 +23,22 @@ namespace MovieReview.API.Controllers
             }
             catch (Exception e)
             {
-
                 return BadRequest(e.Message);
             }
                
+        }
+
+        [HttpPost]
+        public ActionResult<Movie> CreateMovie(Movie movie)
+        {
+            try
+            {
+                return _movieService.CreateMovie(movie);
+            }
+            catch (Exception e)
+            {
+                return BadRequest($"Movie {e.Message}");
+            }
         }
 
     }
