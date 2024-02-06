@@ -17,11 +17,6 @@ namespace MovieReview.Core.Services
             _movieRepository = movieRepository;
         }
 
-        public Movie CreateMovie(Movie movie)
-        {
-            return _movieRepository.Create(movie);
-        }
-
         public List<Movie> GetAllMovies()
         {
             return _movieRepository.GetAllMovies();

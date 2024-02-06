@@ -145,7 +145,7 @@ public static class FakeDB
                 Rating = 7.6f,
                 Runtime = 142,
                 Language = "English",
-                ImageUrl = "https://example.com/shawshank_redemption.jpg"
+                ImageUrl = "https://youwerethechosenone.com"
             }
 
         };

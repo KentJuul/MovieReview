@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MovieReview.Core.Interfaces;
+using MovieReview.Core.Services;
 
 namespace MovieReview.API.Controllers
 {
@@ -11,6 +12,7 @@ namespace MovieReview.API.Controllers
         {
             _IReviewService = reviewService;
         }
+
         [HttpGet]
         public ActionResult GetAllReviews()
         {
@@ -18,9 +20,9 @@ namespace MovieReview.API.Controllers
             {
                 return Ok(_IReviewService.GetAllReviews());
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw;
+                return BadRequest(e.Message);
             }
         }
     }

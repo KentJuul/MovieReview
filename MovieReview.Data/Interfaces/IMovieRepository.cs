@@ -9,7 +9,6 @@ namespace MovieReview.Data.Interfaces
 {
     public interface IMovieRepository
     {
-        List<Movie> GetAllMovies();    
-        Movie Create(Movie movie);
+        List<Movie> GetAllMovies();
     }
 }

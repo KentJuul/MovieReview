@@ -10,11 +10,6 @@ namespace MovieReview.Data.Repositories
 {
     public class MovieRepository : IMovieRepository
     {
-        public Movie Create(Movie movie)
-        {
-            FakeDB.movies.Add(movie);
-            return movie;
-        }
 
         public List<Movie> GetAllMovies()
         {

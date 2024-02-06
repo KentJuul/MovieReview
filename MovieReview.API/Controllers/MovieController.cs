@@ -15,7 +15,7 @@ namespace MovieReview.API.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetAll() 
+        public ActionResult GetAllMovies() 
         {
             try
             {
@@ -27,19 +27,5 @@ namespace MovieReview.API.Controllers
             }
                
         }
-
-        [HttpPost]
-        public ActionResult<Movie> CreateMovie(Movie movie)
-        {
-            try
-            {
-                return _movieService.CreateMovie(movie);
-            }
-            catch (Exception e)
-            {
-                return BadRequest($"Movie {e.Message}");
-            }
-        }
-
     }
 }
